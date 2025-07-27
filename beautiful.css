@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e003c, #520057);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-align: center;
+    color: #fff;
+}
+
+#heading {
+    font-size: 48px;
+    color: #e3caff;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px #00000099;
+}
+
+.game_text {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #ffe0f9;
+    text-shadow: 1px 1px 5px #000;
+    min-height: 80px;
+    transition: all 0.3s ease-in-out;
+}
+
+.game_input {
+    font-size: 18px;
+    padding: 12px 20px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.game_input::placeholder {
+    color: #ddd;
+    font-style: italic;
+}
+
+.button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff00cc, #3333ff);
+    color: white;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #e600ac, #1a1aff);
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+}
